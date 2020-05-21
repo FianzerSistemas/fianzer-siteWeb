@@ -27,7 +27,7 @@ const DropdownItem = ({ item }) => {
           <Link
             className={val.subMenu ? "dropdown-toggle" : null}
             data-toggle="dropdown"
-            to={process.env.PUBLIC_URL + val.link + "aaaa"}
+            to={process.env.PUBLIC_URL + val.link}
             onClick={(e) => handleOpen(e)}
           >
             {val.title}
