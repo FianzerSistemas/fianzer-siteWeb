@@ -62,7 +62,7 @@ const Demos = () => (
                       <div className="product-description-wrap">
                         <div className="product-title">
                           <a
-                            href={`${process.env.PUBLIC_URL} + ${item.link}`}
+                            href={item.link}
                             className="btn btn-color btn-default btn-animate"
                             target="_blank"
                             rel="noopener noreferrer"
