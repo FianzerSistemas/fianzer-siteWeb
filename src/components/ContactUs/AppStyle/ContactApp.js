@@ -84,7 +84,7 @@ const ContactApp = forwardRef((props, ref) => (
                 <h2>WhatsApp</h2>
                 <p className="mb-0">
                   <a
-                    href="https://api.whatsapp.com/send?phone=6674777888&text=Quiero%20informaci%C3%B3n%20sobre%20los%20servicios"
+                    href="https://api.whatsapp.com/send?phone=526674777888&text=Quiero%20informaci%C3%B3n%20sobre%20los%20servicios"
                     target="_blank"
                     rel="noopener noreferrer">
                     (667) 477-78-88

@@ -15,7 +15,7 @@ const TeamMember2 = ({
   };
   const handleClick = () => {
     const message = `Quiero información sobre el servicio "${name}"`;
-    const whatsappLink = `https://api.whatsapp.com/send?phone=123456789&text=${encodeURIComponent(
+    const whatsappLink = `https://api.whatsapp.com/send?phone=526674777888&text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappLink);
