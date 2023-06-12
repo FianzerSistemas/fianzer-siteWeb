@@ -2,8 +2,8 @@ import React from "react";
 import Icofont from "react-icofont";
 import ReactWOW from "react-wow";
 
-const FeatureBoxThree = ({ icon, title, text }) => (
-  <ReactWOW animation="fadeTop" delay="0.1s">
+const FeatureBoxThree = ({ index, icon, title, text }) => (
+  <ReactWOW animation="fadeTop" delay={`0.${index}s`}>
     <div className="col-md-3 feature-box text-center col-sm-6">
       <Icofont
         icon={icon}

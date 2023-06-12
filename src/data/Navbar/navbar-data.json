@@ -184,17 +184,17 @@
             {
                 "id": 2.7,
                 "title": "Terms & Conditions",
-                "link": "/terms-conditions"
+                "link": "/term-condition"
             },
             {
                 "id": 2.8,
                 "title": "Privacy Policy",
-                "link": "/privacy-policy"
+                "link": "/privacy"
             },
             {
                 "id": 2.9,
                 "title": "Careers",
-                "link": "/careers"
+                "link": "/career"
             },
             {
                 "id": 2.10,
@@ -376,7 +376,7 @@
             {
                 "id": 5.5,
                 "title": "Single Product",
-                "link": "/single-product"
+                "link": "/shop-product"
             },
             {
                 "id": 5.6,
@@ -421,12 +421,12 @@
             {
                 "id": 6.5,
                 "title": "Call To Actions",
-                "link": "/call-to-actions"
+                "link": "/call-to-action"
             },
             {
                 "id": 6.6,
                 "title": "Parallax Sections",
-                "link": "/parallax-sections"
+                "link": "/parallax-section"
             },
             {
                 "id": 6.7,
@@ -451,7 +451,7 @@
             {
                 "id": 6.11,
                 "title": "Contact Forms",
-                "link": "/contact-forms"
+                "link": "/contact-form"
             },
             {
                 "id": 6.12,
@@ -481,7 +481,7 @@
             {
                 "id": 6.17,
                 "title": "Team Members",
-                "link": "/team-members"
+                "link": "/team-member"
             },
             {
                 "id": 6.18,

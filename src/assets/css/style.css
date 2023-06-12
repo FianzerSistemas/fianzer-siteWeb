@@ -198,6 +198,12 @@ a.isDisabled:focus {
   color: #666 !important;
 }
 
+/* Single Product Dots Slider */
+
+.product-slider .flex-control-thumbs {
+  display: flex !important;
+}
+
 /* Portfolio Slider Arrows */
 
 .portfolio-slider-next,

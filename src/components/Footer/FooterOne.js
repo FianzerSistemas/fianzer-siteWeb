@@ -20,77 +20,61 @@ const FooterOne = () => (
                   </a>
                 </div>
                 <p>
-                  We are a fully in-house digital agency focusing on branding,
-                  marketing, web design and development with clients ranging
-                  from start-ups, Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Sed varius quam ut magna ultricies
-                  pellentesque.
+                  Trabajamos de la mano con la excelencia y la verdad, haciendo que las cosas sucedan.
                 </p>
+                <p>En Fianzer amamos lo que hacemos.</p>
               </div>
             </div>
-            <div className="col-sm-6 col-md-2">
-              <div className="widget widget-links">
-                <h5 className="widget-title">Work With Us</h5>
+            <div className="col-sm-6 col-md-4">
+              <div className="widget widget-text widget-links">
+                <h5 className="widget-title">Matriz</h5>
                 <ul>
                   <li>
-                    <a href="#!">Themeforest</a>
+                    <i className="icofont icofont-google-map"></i>
+                    <a href="#!">Culiacán, Sinaloa</a>
                   </li>
                   <li>
-                    <a href="#!">Audio Jungle</a>
+                    <i className="icofont icofont-google-map"></i>
+                    <a href="http://maps.google.com/maps?q=BENITO+JUAREZ%2c+396%2f9%2c+CENTRO%2c+CULIACAN%2c+SIN%2c+C.P.+80000">Benito Juáres, 396-9, PTE. Centro, Culiacán, Sinaloa, C.P. 80000</a>
                   </li>
                   <li>
-                    <a href="#!">Code Canyon</a>
+                    <i className="icofont icofont-iphone"></i>
+                    <a href="tel:6677123204">(667)712-32-04</a>
                   </li>
                   <li>
-                    <a href="#!">Video Hive</a>
+                    <i className="icofont icofont-iphone"></i>
+                    <a href="tel:6677124918">(667)712-49-18</a>
                   </li>
                   <li>
-                    <a href="#!">Envato Market</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-sm-6 col-md-2">
-              <div className="widget widget-links">
-                <h5 className="widget-title">Useful Links</h5>
-                <ul>
-                  <li>
-                    <a href="about-us.html">About Us</a>
-                  </li>
-                  <li>
-                    <a href="contact-simple.html">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="service-simple.html">Our Services</a>
-                  </li>
-                  <li>
-                    <a href="term-condition.html">Terms &amp; Conditions</a>
-                  </li>
-                  <li>
-                    <a href="career.html">Careers</a>
+                    <i className="icofont icofont-mail"></i>
+                    <a href="mailto:hola@fianzer.com.mx">hola@fianzer.com.mx</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-sm-6 col-md-4">
               <div className="widget widget-text widget-links">
-                <h5 className="widget-title">Contact Us</h5>
+                <h5 className="widget-title">Oficinas</h5>
                 <ul>
                   <li>
                     <i className="icofont icofont-google-map"></i>
-                    <a href="#!">Park Lane Llandrindod Wells, LD7 9QW</a>
+                    <a href="#!">Los Mochis, Sinaloa</a>
                   </li>
                   <li>
-                    <i className="icofont icofont-iphone"></i>
-                    <a href="#!">+44 1632 960290</a>
+                    <i className="icofont icofont-google-map"></i>
+                    <a href="#!">Hermosillo, Sonora</a>
                   </li>
                   <li>
-                    <i className="icofont icofont-mail"></i>
-                    <a href="#!">helloscoda@gmail.com</a>
+                    <i className="icofont icofont-google-map"></i>
+                    <a href="#!">Nogales, Sonora</a>
                   </li>
                   <li>
-                    <i className="icofont icofont-globe"></i>
-                    <a href="#!">www.envato.com</a>
+                    <i className="icofont icofont-google-map"></i>
+                    <a href="#!">Guadalajara, Jalisco</a>
+                  </li>
+                  <li>
+                    <i className="icofont icofont-google-map"></i>
+                    <a href="#!">Querétaro, Querétaro</a>
                   </li>
                 </ul>
               </div>

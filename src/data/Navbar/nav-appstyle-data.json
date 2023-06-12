@@ -1,7 +1,17 @@
 [
-  { "id": 1, "title": "Home", "link": "home" },
-  { "id": 2, "title": "Features", "link": "feature" },
-  { "id": 3, "title": "Pricing", "link": "pricing" },
-  { "id": 4, "title": "Reviews", "link": "review" },
-  { "id": 5, "title": "Contact us", "link": "contact" }
+  {
+    "id": 1,
+    "title": "Nosotros",
+    "link": "feature"
+  },
+  {
+    "id": 2,
+    "title": "Servicios",
+    "link": "service"
+  },
+  {
+    "id": 3,
+    "title": "Contacto",
+    "link": "contact"
+  }
 ]

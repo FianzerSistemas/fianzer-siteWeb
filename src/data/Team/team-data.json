@@ -20,6 +20,14 @@
                 "icon": "youtube",
                 "link": "!#"
             }
+        ],
+        "body": [
+            "Párrafo 1 del Servicio 2",
+            "Párrafo 2 del Servicio 2",
+            "Párrafo 3 del Servicio 2",
+            "Párrafo 4 del Servicio 2",
+            "Párrafo 5 del Servicio 2",
+            "Párrafo 6 del Servicio 2"
         ]
     },
     {
@@ -43,7 +51,8 @@
                 "icon": "youtube",
                 "link": "!#"
             }
-        ]
+        ],
+        "body": []
     },
     {
         "id": 3,
@@ -66,7 +75,8 @@
                 "icon": "youtube",
                 "link": "!#"
             }
-        ]
+        ],
+        "body": []
     },
     {
         "id": 4,
@@ -89,6 +99,7 @@
                 "icon": "youtube",
                 "link": "!#"
             }
-        ]
+        ],
+        "body": []
     }
 ]

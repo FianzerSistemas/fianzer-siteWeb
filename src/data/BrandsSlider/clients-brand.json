@@ -2,51 +2,66 @@
   {
     "id": 1,
     "image": "clients/1.png",
-    "name": "client-1"
+    "name": "AXA"
   },
   {
     "id": 2,
     "image": "clients/2.png",
-    "name": "client2"
+    "name": "Seguros Atlas"
   },
   {
     "id": 3,
     "image": "clients/3.png",
-    "name": "client-3"
+    "name": "CAIC"
   },
   {
     "id": 4,
     "image": "clients/4.png",
-    "name": "client-4"
+    "name": "CHUBB"
   },
   {
     "id": 5,
     "image": "clients/5.png",
-    "name": "client-5"
+    "name": "Fianzas Dorama"
   },
   {
     "id": 6,
     "image": "clients/6.png",
-    "name": "client-6"
+    "name": "Pro Agro"
   },
   {
     "id": 7,
     "image": "clients/7.png",
-    "name": "client-7"
+    "name": "Imbursa"
   },
   {
     "id": 8,
     "image": "clients/8.png",
-    "name": "client-8"
+    "name": "SOFIMEX"
   },
   {
     "id": 9,
     "image": "clients/9.png",
-    "name": "client-9"
+    "name": "sura"
   },
   {
     "id": 10,
     "image": "clients/10.png",
-    "name": "client-10"
+    "name": "Banorte"
+  },
+  {
+    "id": 11,
+    "image": "clients/11.png",
+    "name": "BX+"
+  },
+  {
+    "id": 12,
+    "image": "clients/12.png",
+    "name": "Zurich"
+  },
+  {
+    "id": 13,
+    "image": "clients/13.png",
+    "name": "Quiálitas"
   }
 ]

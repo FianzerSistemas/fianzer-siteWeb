@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "icon": "icofont-tasks-alt",
+    "title": "Nuestra Misión",
+    "text": "Apoyar y asesorar a nuestros Clientes de manera eficiente asi como dar una mejor calidad de servicio"
+  },
+  {
+    "id": 2,
+    "icon": "icofont-eye",
+    "title": "Nuestra Visión",
+    "text": "Ser la promotoría con mayor reconociemento de México por descatar nuestro servicio a cliente"
+  },
+  {
+    "id": 3,
+    "icon": "icofont-warning-alt",
+    "title": "Identificacion de riesgos",
+    "text": "Que afectan el patrimonio de las empresas, así como la seguridad y salud de un recurso humano"
+  },
+  {
+    "id": 4,
+    "icon": "icofont-chart-histogram-alt",
+    "title": "Compartativo de Cotizaciones",
+    "text": "Con diferentes compañias aseguradoras, para ofrecer la mejor opción de acuerdo a la necesidad del cliente"
+  },
+  {
+    "id": 5,
+    "icon": "icofont-paper-plane",
+    "title": "Diseño de Programas",
+    "text": "Adecuados de seguros y finanzas deacuerdo a als necesidades de cada empresa y sus clientes."
+  },
+  {
+    "id": 6,
+    "icon": "icofont-headphone-alt-2",
+    "title": "Administración Eficiente",
+    "text": "Del programa de cada cliente con la cual contamos con sistemas y ejecutivos especializados en cada uno de los ramos de seguridad y finanzas."
+  },
+  {
+    "id": 7,
+    "icon": "icofont-law-alt-1",
+    "title": "Asesotia Especializada",
+    "text": "EN relacion de siniestros y gestion de indemnizaciones en los mejores terminos para nuestos asegurados."
+  }
+]

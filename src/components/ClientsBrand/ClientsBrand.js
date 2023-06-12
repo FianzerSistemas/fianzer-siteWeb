@@ -32,14 +32,14 @@ const ClientsBrand = ({ children, classAppend }) => {
     ],
   };
   return (
-    <section className="pt-50 pb-50 white-bg">
+    <section className="pt-50 pb-50 grey-bg">
       <div className="container">
         {children ? <div className="row">{children}</div> : null}
         <div className={"row " + (classAppend ? classAppend : null)}>
           {
             <Slider {...settings}>
               {clientsData.map((client) => (
-                <div className="client-logo" key={client.id}>
+                <div className="client-logo" key={client.id} style={{ display: "flex", alignItems: "center" }}>
                   <img
                     className="img-responsive"
                     src={require("../../assets/images/" + client.image)}

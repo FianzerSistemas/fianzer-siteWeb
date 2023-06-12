@@ -2,16 +2,21 @@
   {
     "id": 1,
     "icon": "facebook",
-    "link": "!#"
+    "link": "https://www.facebook.com/Fianzer/?locale=es_LA"
   },
   {
     "id": 2,
-    "icon": "twitter",
-    "link": "!#"
+    "icon": "instagram",
+    "link": "https://www.instagram.com/fianzerseguros/"
   },
   {
     "id": 3,
-    "icon": "linkedin",
-    "link": "!#"
+    "icon": "whatsapp",
+    "link": "https://api.whatsapp.com/send?phone=6674777888&text=Quiero%20informaci%C3%B3n%20sobre%20los%20servicios"
+  },
+  {
+    "id": 4,
+    "icon": "email",
+    "link": "mailto:hola@fianzer.com.mx"
   }
 ]

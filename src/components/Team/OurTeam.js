@@ -1,10 +1,13 @@
-import React from "react";
-import teamData from "../../data/Team/team-data.json";
+import React, { forwardRef } from "react";
 import HeadingSection from "../HeadingSection/HeadingSection";
-import TeamMember from "./TeamMember";
+import TeamMember2 from "./TeamMember2";
+import serviceData from "../../data/Team/service-data.json";
 
-const OurTeam = ({ title, tagline, bg, extraSpace }) => (
-  <section className={"pb-0 " + (bg === "white" ? "white-bg" : "")}>
+const OurTeam = forwardRef(({ title, tagline, extraSpace }, ref) => (
+  <section
+    className="pb-0 grey-bg"
+    id="service"
+    ref={ref}>
     {extraSpace === "true" ? (
       <div className="dn-bg-lines">
         <div></div>
@@ -17,18 +20,22 @@ const OurTeam = ({ title, tagline, bg, extraSpace }) => (
       ""
     )}
     <div className="row">
-      <HeadingSection title={title} tagline={tagline} />
+      <HeadingSection
+        title={title}
+        tagline={tagline}
+      />
     </div>
     <div className="container-fluid">
       <div className="row mt-50">
-        {teamData.map((member, i) => {
+        {serviceData.map((member, i) => {
           return (
-            <TeamMember
+            <TeamMember2
               key={member.id}
-              name={member.name}
-              role={member.role}
+              name={member.title}
+              role={member.subtitle}
               image={member.image}
-              social={member.social}
+              body={member.body}
+              background={member.background}
               delay={i + 3}
               removePadding="true"
             />
@@ -37,6 +44,6 @@ const OurTeam = ({ title, tagline, bg, extraSpace }) => (
       </div>
     </div>
   </section>
-);
+));
 
 export default OurTeam;

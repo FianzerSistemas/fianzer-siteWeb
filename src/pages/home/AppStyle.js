@@ -1,20 +1,18 @@
-import React, { useRef, useState } from "react";
-import FsLightbox from "fslightbox-react";
+import React, { useRef } from "react";
 import Loader from "./../../components/Loader/Loader";
 import dataNav from "../../data/Navbar/nav-appstyle-data.json";
-import HeaderSeven from "../../components/Header/HeaderSeven";
+import HeaderFive from "../../components/Header/HeaderFive";
 import ParallaxAppStyle from "../../components/HeroParallax/ParallaxAppStyle";
 import AboutAppStyle from "../../components/AboutUs/AboutAppStyle";
-import PricingAppStyle from "../../components/PriceTables/AppStyle/PricingAppStyle";
-import TestimonialsApp from "../../components/Testimonials/AppStyle/TestimonialsApp";
 import ContactApp from "../../components/ContactUs/AppStyle/ContactApp";
-import SubscribeApp from "../../components/Subscribe/AppStyle/SubscribeApp";
-import FooterTwo from "../../components/Footer/FooterTwo";
+import OurTeam from "../../components/Team/OurTeam";
+import FooterOne from "../../components/Footer/FooterOne";
+
 
 const AppStyle = () => {
   const home = useRef();
   const feature = useRef();
-  const pricing = useRef();
+  const service = useRef();
   const review = useRef();
   const contact = useRef();
 
@@ -27,8 +25,8 @@ const AppStyle = () => {
       case "feature":
         feature.current.scrollIntoView({ behavior: "smooth" });
         break;
-      case "pricing":
-        pricing.current.scrollIntoView({ behavior: "smooth" });
+      case "service":
+        service.current.scrollIntoView({ behavior: "smooth" });
         break;
       case "review":
         review.current.scrollIntoView({ behavior: "smooth" });
@@ -39,26 +37,22 @@ const AppStyle = () => {
       default:
     }
   };
-  const [toggler, setToggler] = useState(false);
 
   return (
     <Loader>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=sU3FkzUKHXU"]}
-      />
-      <HeaderSeven
-        scrollToSection={scrollToSection}
+      <HeaderFive
         data={dataNav}
-        social="2"
+        scrollToSection={scrollToSection}
       />
       <ParallaxAppStyle ref={home} />
+      <OurTeam
+        title="EXPLORA TODO LO QUE TENEMOS PARA OFRECERTE"
+        tagline=""
+        ref={service}
+      />
       <AboutAppStyle ref={feature} />
-      <PricingAppStyle ref={pricing} />
-      <TestimonialsApp ref={review} toggler={toggler} setToggler={setToggler} />
       <ContactApp ref={contact} />
-      <SubscribeApp />
-      <FooterTwo />
+      <FooterOne />
     </Loader>
   );
 };
