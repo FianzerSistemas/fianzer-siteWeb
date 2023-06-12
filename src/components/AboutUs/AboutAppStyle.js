@@ -87,7 +87,7 @@ const AboutAppStyle = forwardRef((props, ref) => (
       </div>
       <div className="row mt-50 hidden-md hidden-lg">
         <div className="col-md-4 col-sm-12">
-          <div className="pt-100 pb-100 pull-left">
+          <div className="pt-10 pb-10 pull-left">
             {dataSmallAbout
               .filter((v, i) => i < 7)
               .map((feature, i) => (

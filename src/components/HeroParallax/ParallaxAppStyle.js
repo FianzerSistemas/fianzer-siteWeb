@@ -21,9 +21,14 @@ const ParallaxAppStyle = forwardRef((props, ref) => (
         <div className="hero-text blue-color hero-text-sm">
           <div className="container text-center">
             <div className="row">
-              <div className="mb-20 blue col-md-12">
+              <div className="hidden-xs hidden-sm mb-20 blue col-md-12">
                 <ReactWOW animation="fadeInUp">
-                  <h3>DISEÑAMOS SEGUROS Y FINANZAS A TU MEDIDA</h3>
+                  <h3 className="">DISEÑAMOS SEGUROS Y FINANZAS A TU MEDIDA</h3>
+                </ReactWOW>
+              </div>
+               <div className="hidden-md hidden-lg pt-70 mb-20 blue col-md-12">
+                <ReactWOW animation="fadeInUp">
+                  <h2 className="">DISEÑAMOS SEGUROS Y FINANZAS A TU MEDIDA</h2>
                 </ReactWOW>
               </div>
             </div>

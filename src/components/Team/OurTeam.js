@@ -5,7 +5,7 @@ import serviceData from "../../data/Team/service-data.json";
 
 const OurTeam = forwardRef(({ title, tagline, extraSpace }, ref) => (
   <section
-    className="pb-0 grey-bg"
+    className="pt-10 pb-0 grey-bg"
     id="service"
     ref={ref}>
     {extraSpace === "true" ? (
