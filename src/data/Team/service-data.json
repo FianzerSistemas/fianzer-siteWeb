@@ -2,18 +2,18 @@
   {
     "id": 1,
     "title": "VEHÍCULOS",
-    "subtitle": "MANEJA FELIZ, MENJA CONTENTO",
+    "subtitle": "MANEJA FELIZ, MENEJA CONTENTO",
     "image": "team/vehiculos.png",
     "body": [
       "Individual",
       "Grupal"
     ],
-    "background":"#20566d"
+    "background": "#20566d"
   },
   {
     "id": 2,
     "title": "TU FAMILIA Y TÚ",
-    "subtitle": "PROTECCIÓN PARA TI, TU FAMILIA Y TU PATRIMONIO",
+    "subtitle": "PROTECCIÓN PARA TI, TU FAMILIA Y \nTU PATRIMONIO",
     "image": "team/familia.png",
     "body": [
       "Seguro de Hogar y Condominio",
@@ -21,7 +21,7 @@
       "Gastos Médicos Individual",
       "Seguro de Viaje"
     ],
-    "background":"#38687c"
+    "background": "#38687c"
   },
   {
     "id": 3,
@@ -40,19 +40,19 @@
       "Seguro de Agrícola",
       "Seguro Ganadero, Pecuario y Aviario"
     ],
-    "background":"#517a8b"
+    "background": "#517a8b"
   },
   {
     "id": 4,
-    "title": "Finanzas",
+    "title": "Fianzas",
     "subtitle": "SOMOS ALIADOS EN GARANTIZAR TU PROTECCIÓN",
-    "image": "team/finanzas.png",
+    "image": "team/fianzas.png",
     "body": [
       "Finanzas Administrativas",
       "Finanza de Fidelidad",
       "Finanza de Crédito",
       "Finanza Judicial Civil"
     ],
-    "background":"#6a8c99"
+    "background": "#6a8c99"
   }
 ]

@@ -44,7 +44,7 @@ const AppStyle = () => {
         data={dataNav}
         scrollToSection={scrollToSection}
       />
-      <ParallaxAppStyle ref={home} />
+      <ParallaxAppStyle text="DISEÑAMOS SEGUROS Y FIANZAS A TU MEDIDA" ref={home} />
       <OurTeam
         title="EXPLORA TODO LO QUE TENEMOS PARA OFRECERTE"
         tagline=""

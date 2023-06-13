@@ -4,7 +4,7 @@ import imgLeft from "../../assets/images/story.png";
 import imgRight from "../../assets/images/sotory2.png";
 import ReactWOW from "react-wow";
 
-const ParallaxAppStyle = forwardRef((props, ref) => (
+const ParallaxAppStyle = forwardRef(({text}, ref) => (
   <section
     className="pt-0 pb-0"
     id="home"
@@ -23,12 +23,12 @@ const ParallaxAppStyle = forwardRef((props, ref) => (
             <div className="row">
               <div className="hidden-xs hidden-sm mb-20 blue col-md-12">
                 <ReactWOW animation="fadeInUp">
-                  <h3 className="">DISEÑAMOS SEGUROS Y FINANZAS A TU MEDIDA</h3>
+                  <h3 className="">{text}</h3>
                 </ReactWOW>
               </div>
                <div className="hidden-md hidden-lg pt-70 mb-20 blue col-md-12">
                 <ReactWOW animation="fadeInUp">
-                  <h2 className="">DISEÑAMOS SEGUROS Y FINANZAS A TU MEDIDA</h2>
+                  <h2 className="">{text}</h2>
                 </ReactWOW>
               </div>
             </div>

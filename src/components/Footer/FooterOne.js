@@ -72,10 +72,6 @@ const FooterOne = () => (
                     <i className="icofont icofont-google-map"></i>
                     <a href="#!">Guadalajara, Jalisco</a>
                   </li>
-                  <li>
-                    <i className="icofont icofont-google-map"></i>
-                    <a href="#!">Querétaro, Querétaro</a>
-                  </li>
                 </ul>
               </div>
             </div>

@@ -40,27 +40,19 @@ const TeamMember2 = ({
             style={cardStyle}>
             <div className="member-description text-center">
               <div className="member-description-wrap-2">
-                <h4 className="member-title">{name}</h4>
-                <p className="member-subtitle">{role}</p>
+                <h2 className="member-title">{name}</h2>
+                <p className="member-subtitle">
+                 {role.split("\n").map((line, index) => (
+                    <span key={index}>
+                      {line}
+                      <br />
+                    </span>
+                  ))}
+                </p>
                 <div className="card-service-body">
-                  {body.length <= 5 ? (
-                    body.map((paragraph, index) => (
-                      <p key={index}>{paragraph}</p>
-                    ))
-                  ) : (
-                    <div className="row">
-                      <div className="col-sm-6">
-                        {body.slice(0, 5).map((paragraph, index) => (
-                          <p key={index}>{paragraph}</p>
-                        ))}
-                      </div>
-                      <div className="col-sm-6 text-small">
-                        {body.slice(5).map((paragraph, index) => (
-                          <p key={index}>{paragraph}</p>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                  {body.map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
                   <button
                     className="btn btn-primary btn-transparent"
                     onClick={handleClick}>

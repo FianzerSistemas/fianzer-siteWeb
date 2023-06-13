@@ -1,8 +1,10 @@
 import React, { forwardRef } from "react";
 import ReactWow from "react-wow";
+import FeatureBoxThree from "../../components/AboutUs/elements/FeatureBoxThree";
 import dataAbout from "../../data/About/about-appstyle-data.json";
 import dataSmallAbout from "../../data/About/about-appstyle-small-data.json";
-import img from "../../assets/images/slides/1x/about-gig-transparent.png";
+import servicesData from "../../data/About/about-page-data.json";
+import img from "../../assets/images/story3.png";
 import Icofont from "react-icofont";
 
 const AboutAppStyle = forwardRef((props, ref) => (
@@ -16,17 +18,42 @@ const AboutAppStyle = forwardRef((props, ref) => (
           <ReactWow
             animation="fadeInUp"
             delay="0.1s">
-            <h3 className="font-700">
-              MÁS DE 30 AÑOS DE EXPERIENCIA NOS RESPALDA
-            </h3>
+            <h2 className="font-700">
+              MÁS DE 30 AÑOS DE EXPERIENCIA NOS RESPALDAN
+            </h2>
           </ReactWow>
         </div>
       </div>
       <div className="row mt-50 hidden-xs hidden-sm">
+        <div className="row">
+          <div className="container">
+            <div className="row mt-50 ml-70 mr-70">
+              {servicesData.map((feature) => (
+                <FeatureBoxThree
+                  key={feature.id}
+                  icon={feature.icon}
+                  title={feature.title}
+                  text={feature.text}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="row mt-70">
+          <div className="col-sm-8 section-heading">
+            <ReactWow
+              animation="fadeInUp"
+              delay="0.1s">
+              <h2 className="font-700">
+                VENTAJAS DE ESTAR CON FIANZER
+              </h2>
+            </ReactWow>
+          </div>
+      </div>
         <div className="col-md-4 col-sm-12">
-          <div className="pt-100 pb-100 pull-left">
+          <div className="pt-10 pb-100 pull-left">
             {dataAbout
-              .filter((v, i) => i < 4)
+              .filter((v, i) => i < 3)
               .map((feature, i) => (
                 <ReactWow
                   key={feature.id}
@@ -60,9 +87,9 @@ const AboutAppStyle = forwardRef((props, ref) => (
           </div>
         </ReactWow>
         <div className="col-md-4 col-sm-12">
-          <div className="pt-100 pb-100 pull-left">
+          <div className="pt-10 pb-100 pull-left">
             {dataAbout
-              .filter((v, i) => i > 3)
+              .filter((v, i) => i > 2)
               .map((feature, i) => (
                 <ReactWow
                   key={feature.id}
@@ -85,11 +112,12 @@ const AboutAppStyle = forwardRef((props, ref) => (
           </div>
         </div>
       </div>
+      
       <div className="row mt-50 hidden-md hidden-lg">
         <div className="col-md-4 col-sm-12">
           <div className="pt-10 pb-10 pull-left">
             {dataSmallAbout
-              .filter((v, i) => i < 7)
+              .filter((v, i) => i < 8)
               .map((feature, i) => (
                 <ReactWow
                   key={feature.id}
@@ -103,7 +131,7 @@ const AboutAppStyle = forwardRef((props, ref) => (
                       />
                     </div>
                     <div className="pull-right">
-                      <h4 className="mt-0">{feature.title}</h4>
+                      <h4 className={`mt-0 ${feature.id === 3 ? 'text-center' : ''}`}>{feature.title}</h4>
                       <p>{feature.text}</p>
                     </div>
                   </div>

@@ -25,6 +25,34 @@
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+
+	.team-member-container:hover .member-caption,
+	.team-member-container:hover .member-description .member-title,
+	.team-member-container:hover .member-description .member-subtitle,
+	.team-member-container:hover .member-description .card-service-body,
+	.team-member-container:hover .member-description button,
+	.team-member-container:hover .member-icons li {
+		opacity: 1;
+		visibility: visible;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.team-member-container .member-caption {
+		opacity: 1;
+	}
+
+	.member-description .member-title,
+	.member-description .member-subtitle,
+	.member-description .card-service-body,
+	.member-icons li {
+		opacity: 1;
+		visibility: visible;
+		top: 0;
+	}
+}
 
 @media (max-width:768px) {
 	.countdown-container-white .countdown li {
@@ -118,6 +146,10 @@
 
 	.footer-height {
 		display: none;
+	}
+
+	.logo.logo-footer {
+		left: 20px;
 	}
 
 	.testimonial .slick-arrow {
