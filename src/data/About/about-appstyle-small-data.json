@@ -3,13 +3,13 @@
     "id": 1,
     "icon": "icofont-tasks-alt",
     "title": "Nuestra Misión",
-    "text": "Apoyar y asesorar a nuestros Clientes de manera eficiente asi como dar una mejor calidad de servicio"
+    "text": "Apoyar y asesorar a nuestros clientes de manera eficiente así como dar una mejor calidad en el servicio"
   },
   {
     "id": 2,
     "icon": "icofont-eye",
     "title": "Nuestra Visión",
-    "text": "Ser la promotoría con mayor reconociemento de México por descatar nuestro servicio a cliente"
+    "text": "Ser la promotoría con mayor reconociemento de México por destacar nuestro servicio a cliente"
   },
   {
     "id": 3,
@@ -21,30 +21,30 @@
     "id": 4,
     "icon": "icofont-warning-alt",
     "title": "Identificacion de riesgos",
-    "text": "Que afectan el patrimonio de las empresas, así como la seguridad y salud de un recurso humano"
+    "text": "Que afectan el patrimonio de las empresas, así como la seguridad y salud de su recurso humano"
   },
   {
     "id": 5,
     "icon": "icofont-chart-histogram-alt",
-    "title": "Compartativo de Cotizaciones",
+    "title": "Comparativo de Cotizaciones",
     "text": "Con diferentes compañias aseguradoras, para ofrecer la mejor opción de acuerdo a la necesidad del cliente"
   },
   {
     "id": 6,
     "icon": "icofont-paper-plane",
     "title": "Diseño de Programas",
-    "text": "Adecuados de seguros y finanzas deacuerdo a als necesidades de cada empresa y sus clientes."
+    "text": "Adecuados de Seguros y Fianzas deacuerdo a als necesidades de cada empresa y sus clientes."
   },
   {
     "id": 7,
     "icon": "icofont-headphone-alt-2",
     "title": "Administración Eficiente",
-    "text": "Del programa de cada cliente con la cual contamos con sistemas y ejecutivos especializados en cada uno de los ramos de seguridad y finanzas."
+    "text": "Del programa de cada cliente con la cual contamos con sistemas y ejecutivos especializados en cada uno de los ramos de Seguros y Fianzas"
   },
   {
     "id": 8,
     "icon": "icofont-law-alt-1",
-    "title": "Asesotia Especializada",
-    "text": "EN relacion de siniestros y gestion de indemnizaciones en los mejores terminos para nuestos asegurados."
+    "title": "Asesoría Especializada",
+    "text": "En relacion de siniestros y gestión de indemnizaciones en los mejores términos para nuestos asegurados."
   }
 ]

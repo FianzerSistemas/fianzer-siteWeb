@@ -2,8 +2,9 @@
   {
     "id": 1,
     "title": "VEHÍCULOS",
-    "subtitle": "MANEJA FELIZ, MENEJA CONTENTO",
+    "subtitle": "MANEJA FELIZ, MANEJA CONTENTO",
     "image": "team/vehiculos.png",
+    "imgSmall": "team/vehiculos-small.png",
     "body": [
       "Individual",
       "Grupal"
@@ -15,6 +16,7 @@
     "title": "TU FAMILIA Y TÚ",
     "subtitle": "PROTECCIÓN PARA TI, TU FAMILIA Y \nTU PATRIMONIO",
     "image": "team/familia.png",
+    "imgSmall": "team/familia-small.png",
     "body": [
       "Seguro de Hogar y Condominio",
       "Seguro de Vida Individual",
@@ -28,12 +30,13 @@
     "title": "TU EMPRESA",
     "subtitle": "DEJA EL BIENESTAR DE TU GENTE EN NUESTRAS MANOS",
     "image": "team/empresa.png",
+    "imgSmall": "team/empresa-small.png",
     "body": [
-      "Gastos medicos grupal",
+      "Gastos Médicos Grupal",
       "Seguro de Vida Grupal",
-      "Seguro de Responsavilidad Civil",
+      "Seguro de Responsabilidad Civil",
       "Seguro de Obra Civil",
-      "Seguro para Enbarcaciones",
+      "Seguro para Embarcaciones",
       "Seguro de Transporte de Mercancía",
       "Seguro para Equipo de Contratista",
       "Seguro de Invernaderos",
@@ -47,11 +50,12 @@
     "title": "Fianzas",
     "subtitle": "SOMOS ALIADOS EN GARANTIZAR TU PROTECCIÓN",
     "image": "team/fianzas.png",
+    "imgSmall": "team/fianzas-small.png",
     "body": [
-      "Finanzas Administrativas",
-      "Finanza de Fidelidad",
-      "Finanza de Crédito",
-      "Finanza Judicial Civil"
+      "Fianzas Administrativas",
+      "Fianza de Fidelidad",
+      "Fianza de Crédito",
+      "Fianza Judicial Civil"
     ],
     "background": "#6a8c99"
   }

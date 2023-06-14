@@ -34,6 +34,7 @@ const OurTeam = forwardRef(({ title, tagline, extraSpace }, ref) => (
               name={member.title}
               role={member.subtitle}
               image={member.image}
+              imgSmall={member.imgSmall}
               body={member.body}
               background={member.background}
               delay={i + 3}

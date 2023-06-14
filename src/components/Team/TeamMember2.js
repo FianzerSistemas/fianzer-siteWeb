@@ -9,6 +9,7 @@ const TeamMember2 = ({
   removePadding,
   body,
   background,
+  imgSmall
 }) => {
   const cardStyle = {
     background: background || "",
@@ -32,8 +33,13 @@ const TeamMember2 = ({
         <div className="team-member-container gallery-image-hover">
           <img
             src={require("../../assets/images/" + image)}
-            className="img-responsive"
+            className="img-responsive hidden-sm hidden-xs"
             alt={image}
+          />
+          <img
+            src={require("../../assets/images/" + imgSmall)}
+            className="img-responsive hidden-md hidden-lg"
+            alt={imgSmall}
           />
           <div
             className="member-caption"
