@@ -3449,6 +3449,7 @@ img.mfp-img {
   align-items: center;
   text-align: center;
   overflow-wrap: break-word;
+  overflow-y: auto;
   word-wrap: break-word;
   word-break: break-word;
 }
@@ -3466,7 +3467,7 @@ img.mfp-img {
   /* left: 0; */
   width: 100%;
   overflow-wrap: break-word;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   max-height: 90%;
 }
 
@@ -3512,6 +3513,10 @@ img.mfp-img {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+
+.team-member-container .member-description-wrap-2:hover {
+  scroll-margin-top: 0;
 }
 
 .team-member-container:hover .member-description .member-title {
