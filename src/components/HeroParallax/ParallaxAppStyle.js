@@ -46,7 +46,9 @@ const ParallaxAppStyle = forwardRef(({text}, ref) => (
 
               <div className="col-md-6 pt-20 hidden-sm hidden-xs text-center">
                 <ReactWOW animation="fadeInRight">
-                  <h4>COTIZA HOY</h4>
+                  <a href="https://wa.me/526674777888?text=Me%20gustaría%20una%20cotización" target="_blank" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <h4 className="clickable-text">COTIZA HOY</h4>
+                  </a>
                   <img
                     src={imgRight}
                     alt="Imagen 2"
